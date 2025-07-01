@@ -50,145 +50,6 @@ import MyButton from '@/components/MyButton.vue';
 </template>
 
 <style lang="scss">
-// .community-wrapper {
-//     margin-bottom: 237px;
-//     overflow: hidden;
-//     padding-top: 40px;
-//     padding-bottom: 40px;
-
-//     .community-wrapp {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         justify-content: center;
-//         position: relative;
-//         aspect-ratio: 1/1;
-
-//         .circle-1,
-//         .circle-2 {
-//             border: 2px solid #D2D2D2;
-//             border-radius: 50%;
-//             position: absolute;
-//             left: 50%;
-//             top: 50%;
-//             transform: translate(-50%, -50%) rotate(0deg);
-//         }
-
-//         .circle-1 {
-//             width: clamp(300px, 74vw, 1060px);
-//             height: clamp(300px, 74vw, 1060px);
-//             animation: rotation 12s linear infinite;
-//             position: absolute;
-//             left: 50%;
-//             top: 50%;
-//             transform: translate(-50%, -50%);
-
-//             .circle-img-wrapp {
-//                 position: absolute;
-//                 top: 50%;
-//                 left: 50%;
-//                 width: clamp(30px, 5vw, 60px);
-//                 aspect-ratio: 1/1;
-//                 border-radius: 50%;
-//                 overflow: hidden;
-//                 transform-origin: center center;
-
-//                 img {
-//                     width: 100%;
-//                     height: 100%;
-//                     object-fit: cover;
-//                 }
-//             }
-
-//             .img-1 {
-//                 transform: rotate(0deg) translateY(calc(-1 * clamp(150px, 38.9vw, 558px)));
-//                 img { transform: rotate(0deg); }
-//             }
-//             .img-2 {
-//                 transform: rotate(72deg) translateY(calc(-1 * clamp(140px, 35.3vw, 507px)));
-//                 img { transform: rotate(-72deg); }
-//             }
-//             .img-3 {
-//                 transform: rotate(144deg) translateY(calc(-1 * clamp(135px, 33.8vw, 488px)));
-//                 img { transform: rotate(-144deg); }
-//             }
-//             .img-4 {
-//                 transform: rotate(216deg) translateY(calc(-1 * clamp(142px, 36.1vw, 518px)));
-//                 img { transform: rotate(-216deg); }
-//             }
-//             .img-5 {
-//                 transform: rotate(288deg) translateY(calc(-1 * clamp(155px, 39.5vw, 567px)));
-//                 img { transform: rotate(-288deg); }
-//             }
-//                 }
-
-//         .circle-2 {
-//             width: clamp(200px, 58vw, 830px);
-//             height: clamp(200px, 58vw, 830px);
-//             animation: rotation 10s linear infinite;
-//             position: absolute;
-//             top: 50%;
-//             left: 50%;
-//             transform: translate(-50%, -50%);
-//             .circle-img-wrapp {
-//                 position: absolute;
-//                 top: 50%;
-//                 left: 50%;
-//                 width: clamp(25px, 4vw, 50px);
-//                 aspect-ratio: 1/1;
-//                 border-radius: 50%;
-//                 overflow: hidden;
-//                 transform-origin: center center;
-
-//                 img {
-//                     width: 100%;
-//                     height: 100%;
-//                     object-fit: cover;
-//                 }
-//             }
-            
-//             .img-6 {
-//                 transform: rotate(0deg) translateY(calc(-1 * clamp(120px, 30.4vw, 437px)));
-//                 img { transform: rotate(0deg); }
-//             }
-//             .img-7 {
-//                 transform: rotate(72deg) translateY(calc(-1 * clamp(110px, 27.5vw, 396px)));
-//                 img { transform: rotate(-72deg); }
-//             }
-//             .img-8 {
-//                 transform: rotate(144deg) translateY(calc(-1 * clamp(105px, 26.3vw, 378px)));
-//                 img { transform: rotate(-144deg); }
-//             }
-//             .img-9 {
-//                 transform: rotate(216deg) translateY(calc(-1 * clamp(113px, 28.2vw, 405px)));
-//                 img { transform: rotate(-216deg); }
-//             }
-//         }
-
-//         h2 {
-//             text-align: center;
-//             font-size: 45px;
-//             line-height: 54.4px;
-//             font-weight: 700;
-//             color: #18181B;
-//             margin-bottom: 31px;
-
-//             span {
-//                 color: #D2D2D2;
-//             }
-//         }
-
-//         p {
-//             font-weight: 400;
-//             font-size: 18px;
-//             line-height: 32px;
-//             color: #12141D;
-//             margin-bottom: 49px;
-//             width: 50%;
-//             text-align: center;
-//         }
-//     }
-// }
 .community-wrapper {
     margin-bottom: 237px;
     overflow: hidden;
@@ -362,6 +223,8 @@ import MyButton from '@/components/MyButton.vue';
 }
 @media (max-width: 376px) {
     .community-wrapper {
+        padding-top: 145px;
+        padding-bottom: 157px;
         .community-wrapp {
             h2 {
                 font-size: 22px;

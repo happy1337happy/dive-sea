@@ -205,6 +205,7 @@ header .header-wrapp .mob-menu .menu-img{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 100%;
 }
 @media (max-width: 1280px){
     header{
@@ -315,6 +316,9 @@ header .header-wrapp .mob-menu .menu-img{
         display: block;
         font-size: 25.36px;
     }
+    .search input{
+        width: 100%;
+    }
 }
 @media (max-width: 375px){
     header .header-wrapp .mob-menu{
@@ -325,8 +329,8 @@ header .header-wrapp .mob-menu .menu-img{
         width: 46px;
         margin-top: -2px;
     }
-    .search input{
-        width: 330px;
+    .search .search-btn img{
+        width: 18px;
     }
 }
 </style>

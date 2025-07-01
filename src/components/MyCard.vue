@@ -517,4 +517,13 @@ import { useImageLoader } from '@/assets/composables/useImageLoader';
     }
   }
 }
+@media (max-width: 330px){
+    .card-bottom {
+      .bottom-left{
+        .card-subtitle{
+          font-size: 9px;
+        }
+      }
+    }
+  } 
 </style>

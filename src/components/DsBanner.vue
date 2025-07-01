@@ -464,16 +464,6 @@ import { useImageLoader } from '@/assets/composables/useImageLoader';
         display: flex;
         justify-content: center;
         margin-top: 100px;
-        margin-left: 10%;
-    }
-    .banner-wrapper .banner-wrapp .banner-left .mob-dude::before {
-        position: absolute;
-        content: '';
-        left: 135px;
-        top: 40%;
-        width: 45px;
-        height: 1px;
-        background-color: #93989A;
     }
     .banner-wrapper .banner-wrapp .banner-left h1 {
         font-size: 63px;
@@ -546,12 +536,6 @@ import { useImageLoader } from '@/assets/composables/useImageLoader';
     }
     .banner-wrapper .banner-wrapp .banner-left .mob-dude {
         margin-top: 85px;
-        margin-left: 10%;
-    }
-    .banner-wrapper .banner-wrapp .banner-left .mob-dude::before {
-        left: 65px;
-        top: 40%;
-        width: 38px;
     }
     .banner-wrapper .banner-wrapp .banner-left h1 {
         font-size: 54px;
@@ -622,7 +606,7 @@ import { useImageLoader } from '@/assets/composables/useImageLoader';
         padding: 5px;
     }
 }
-@media (max-width: 376px){
+@media (max-width: 400px){
     .banner-wrapper{
         margin-top:30px;
     }
@@ -631,12 +615,6 @@ import { useImageLoader } from '@/assets/composables/useImageLoader';
     }
     .banner-wrapper .banner-wrapp .banner-left .mob-dude{
         margin-top: 74px;
-        margin-left: 10%;
-    }
-    .banner-wrapper .banner-wrapp .banner-left .mob-dude::before{
-        left: 50px;
-        top: 40%;
-        width: 33.3px;
     }
     .banner-wrapper .banner-wrapp .banner-left h1 {
         font-size: 47.4px;
@@ -704,6 +682,36 @@ import { useImageLoader } from '@/assets/composables/useImageLoader';
         width: 12px;
         height: 100%; 
         padding: 0px;
+    }
+}
+@media (max-width: 330px){
+    .banner-wrapper .banner-wrapp .banner-left h1 {
+        font-size: 44.4px;
+    }
+    .banner-wrapper .slider .swiper .swiper-slide img{
+        max-width: 170px;
+        max-height: 170px;
+        border-radius: 13px;
+    }
+    .banner-wrapper .img-absolute .img-2 {
+        max-width: 45.7px;
+        right: 105px;
+    }
+    .banner-wrapper .slider .slider-btn-wrapp {
+        margin-top: 28px;
+        margin-left: 39px;
+    }
+    .banner-wrapper .img-absolute .img-3 {
+        max-width: 68.2px;
+        height: 212.1px;
+        right: 13px;
+        top: -62px;
+    }
+    .banner-wrapper .slider .dude-wrapp {
+        max-width: 170px;
+    }
+    .banner-wrapper .img-absolute .img-4 {
+        top: 75px;
     }
 }
 </style>

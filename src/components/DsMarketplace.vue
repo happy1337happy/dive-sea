@@ -119,7 +119,7 @@ const onClickCard = (card) => {
     }
     .marketplace-wrapper .marketplace-wrapp .marcetplace-cart{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 35px;
         margin-bottom: 103.2px;
     }
