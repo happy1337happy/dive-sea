@@ -117,7 +117,7 @@
                         justify-content: center;
 
                         &::after{
-                            content: "\1F7A2";
+                            content: "+";
                         }
                         &.active::after {
                             content: '\2014';
