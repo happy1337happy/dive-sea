@@ -257,4 +257,58 @@ import { useImageLoader } from '@/assets/composables/useImageLoader';
     font-weight: 600;
     font-family: "Inter", sans-serif;
     }
+    @media (max-width: 376px){
+        .great-card{
+            border-radius: 15px;
+            box-shadow: 30px 15px 80px 0 rgba(191, 191, 191, 0.6);
+        }
+        .great-bot{
+            padding: 58px 22px 31px 22px;
+        }
+        .great-icon{
+            max-width: 102px;
+            border: solid 5.7px white;
+            aspect-ratio: 1/1;
+        }
+        .great-author{
+            gap: 14.5px;
+            margin-bottom: 19.7px;
+        }
+        .author-name{
+            font-size: 19.82px;
+            line-height: 28.07px;
+        }
+        .verification{
+            max-width: 16.7px;
+            max-height: 16.7px;
+        }
+        .great-numbers{
+            gap: 25px;
+        }
+        .item-top{
+            font-size: 14.86px;
+            line-height: 21.4px;
+        }
+        .item-bot{
+            font-size: 10.7px;
+            line-height: 13.2px;
+        }
+        .item-sigma{
+            gap: 4px;
+        }
+        .priceIcon{
+            width: 10.2px; 
+            height: 14.7px;
+        }
+        .others{
+            margin-top: 26px;
+            .other-img-wrapp{
+                border-radius: 8.3px;
+            }
+        }
+        .nft-count {
+            font-size: 16.6px;
+            line-height: 18.25px;
+        }
+    }
 </style>

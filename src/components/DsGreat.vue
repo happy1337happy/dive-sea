@@ -70,6 +70,7 @@ import GreatCard from '@/components/GreatCard.vue';
     }
     .great-catrd-wrapper{
         gap: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     }
 }
 </style>
